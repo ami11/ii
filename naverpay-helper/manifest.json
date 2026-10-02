@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "네이버페이 포인트 도우미",
+  "version": "1.0.0",
+  "description": "매일 정해진 시간에 알림을 주고, 클릭 한 번으로 포인트 미션 페이지를 엽니다.",
+  "permissions": ["alarms", "notifications", "storage"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "포인트 미션 열기", "default_popup": "popup.html" }
+}
